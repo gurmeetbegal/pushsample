@@ -65,7 +65,9 @@ function registerPushwooshAndroid() {
 
 function onPushwooshAndroidInitialized(pushToken)
 {
-	 alert('tags='+tags);
+	 alert('onPushwooshAndroidInitialized_token='+pushToken);
+	 
+	 return;
 	 
 	//output the token to the console
 	console.warn('push token: ' + pushToken);
