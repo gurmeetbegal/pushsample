@@ -70,6 +70,8 @@ function onPushwooshAndroidInitialized(pushToken)
 
 	var pushNotification = window.plugins.pushNotification;
 	
+	alert('tags='+tags);
+	
 	pushNotification.getTags(
 		function(tags)
 		{
