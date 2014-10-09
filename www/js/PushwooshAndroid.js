@@ -67,12 +67,16 @@ function onPushwooshAndroidInitialized(pushToken)
 {
 	 alert('onPushwooshAndroidInitialized_token='+pushToken);
 	 
-	 return;
+	 //return;
 	 
 	//output the token to the console
-	console.warn('push token: ' + pushToken);
+	//console.warn('push token: ' + pushToken);
 
 	var pushNotification = window.plugins.pushNotification;
+	
+	
+	
+	 alert('pushNotification_var='+pushNotification);
 	
 	
 	
@@ -122,4 +126,6 @@ function onPushwooshAndroidInitialized(pushToken)
 
 	//Pushwoosh Android specific method that cares for the battery
 	pushNotification.startGeoPushes();
+	
+	alert('end');
 }
