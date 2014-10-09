@@ -76,7 +76,7 @@ function onPushwooshAndroidInitialized(pushToken)
 	
 	
 	
-	 alert('pushNotification_var='+pushNotification);
+	// alert('pushNotification_var='+pushNotification);
 	
 	
 	
@@ -127,5 +127,5 @@ function onPushwooshAndroidInitialized(pushToken)
 	//Pushwoosh Android specific method that cares for the battery
 	pushNotification.startGeoPushes();
 	
-	alert('end');
+	//alert('end');
 }
